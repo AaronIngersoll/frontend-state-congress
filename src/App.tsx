@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import funny from "./slowinternet.jpg";
+import funny from "./funnybear_.jpg";
 import "./App.css";
 import SimpleSelect from "./components/Select";
 import RepTable from "./components/RepTable";
@@ -65,7 +65,7 @@ function App() {
 					/>
 				</Grid>
 			</Grid>
-			{isLoaded ? (
+			{!isLoaded ? (
 				<header className="App-header">
 					<img src={funny} className="App-logo" alt="logo" />
 				</header>
